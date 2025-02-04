@@ -23,7 +23,7 @@ class Customer < ApplicationRecord
   def self.any_candice
     # YOUR CODE HERE to return all customer(s) whose first name is Candice
     # probably something like:  Customer.where(....)
-    Customer.where(first: 'candice')
+    Customer.where(first: 'Candice')
   end
 
   def self.with_valid_email
