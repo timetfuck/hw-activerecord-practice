@@ -2,8 +2,7 @@
 FROM ruby:2.6.6
 
 # 更新 apt 并安装编译 sqlite3 gem 所需的依赖包
-RUN apt-get update -qq && apt-get install -y build-essential libsqlite3-dev
-
+RUN apt-get update -qq && apt-get install -y build-essential libsqlite3-dev && apt-get install -y sqlite3 libsqlite3-dev
 # 设置工作目录（容器内的目录）
 WORKDIR /app
 

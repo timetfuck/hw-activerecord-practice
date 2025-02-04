@@ -38,7 +38,7 @@ describe 'ActiveRecord practice' do
         expect(Customer).to receive(:where).at_least(:once).and_call_original
       end
 
-      xspecify 'anyone with first name Candice' do
+      specify 'anyone with first name Candice' do
         check Customer.any_candice, [24]
       end
 
