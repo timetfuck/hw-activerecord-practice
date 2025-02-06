@@ -10,4 +10,4 @@ gem 'rspec', '~> 3.0'
 # re-generating the fake data WILL BREAK THE RSPEC TESTS.
 # gem 'faker'
 #
-#gem 'guard-rspec'
+# gem 'guard-rspec'
